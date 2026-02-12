@@ -1,0 +1,5 @@
+{
+  "name": "VeoGen Studio",
+  "description": "A modern web application for generating high-quality videos and images using Google's Gemini API. Features a minimalistic design, user management, and data reporting.",
+  "requestFramePermissions": []
+}
