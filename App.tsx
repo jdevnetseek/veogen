@@ -11,6 +11,7 @@ import Users from './pages/Users';
 import Reports from './pages/Reports';
 import Profile from './pages/Profile';
 import Settings from './pages/Settings';
+import Gallery from './pages/Gallery';
 
 const MainLayout: React.FC = () => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -50,6 +51,7 @@ const App: React.FC = () => {
                     <Route element={<MainLayout />}>
                         <Route path="/" element={<Navigate to="/generate" replace />} />
                         <Route path="/generate" element={<Generate />} />
+                        <Route path="/gallery" element={<Gallery />} />
                         <Route path="/videos" element={<Videos />} />
                         <Route path="/users" element={<Users />} />
                         <Route path="/reports" element={<Reports />} />
